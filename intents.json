@@ -1,0 +1,114 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi there",
+        "How are you",
+        "Is anyone there?",
+        "Hey",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hello, thanks for asking",
+        "Good to see you again",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "clearing",
+      "patterns": [
+        "is clearing 2021 open?",
+        "I want to know more about clearing vacancies?"
+      ],
+      "responses": [
+        "Clearing is another opportunity to secure a university place that is just right for you. Take a look at our Clearing Vacancies "
+      ],
+      "link": ["https://www.swansea.ac.uk/clearing/"]
+    },
+    {
+      "tag": "clearing_contact",
+      "patterns": [
+        "Contact details of clearing team?",
+        "I want to know the contact details of clearing team?"
+      ],
+      "responses": ["The contact details of the clearing team can be found  "],
+      "link": ["https://www.swansea.ac.uk/clearing/contact/"]
+    },
+    {
+      "tag": "ug_courses_list",
+      "patterns": [
+        "What undergraduate courses do you offer?",
+        "What ug courses do you offer?"
+      ],
+      "responses": ["You can find all the undergraduate courses we offer "],
+      "link": ["https://www.swansea.ac.uk/undergraduate/courses/"]
+    },
+    {
+      "tag": "ug_admissions_contact",
+      "patterns": [
+        "Contact details of undergraduate admissions team?",
+        "I want to know the contact details of ug admissions team?"
+      ],
+      "responses": [
+        "There are many ways to speak to the admissions team at Swansea, details can be found  "
+      ],
+      "link": ["https://www.swansea.ac.uk/undergraduate/contact-admissions/"]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "Contact details of undergraduate admissions team?",
+        "I want to know the details of accommodation?",
+        "I want to know the details of residence halls?"
+      ],
+      "responses": [
+        "There are many ways to speak to the admissions team at Swansea, details can be found  "
+      ],
+      "link": ["https://www.swansea.ac.uk/undergraduate/contact-admissions/"]
+    },
+    {
+      "tag": "campus_life",
+      "patterns": [
+        "Can I know more about campus life?",
+        "How's the life on campus?"
+      ],
+      "responses": [
+        "You can find more about this on website <a href='https://www.swansea.ac.uk/life-on-campus/'>here</a>",
+        "campus life Here <a href='https://www.swansea.ac.uk/life-on-campus/'>here</a>"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye",
+        "Nice chatting to you, bye",
+        "Till next time"
+      ],
+      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "That's helpful",
+        "Awesome, thanks",
+        "Thanks for helping me"
+      ],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [],
+      "responses": [
+        "Sorry, can't understand you",
+        "Please give me more info",
+        "Not sure I understand"
+      ]
+    }
+  ]
+}
