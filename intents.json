@@ -69,9 +69,6 @@
       "link": ["https://www.swansea.ac.uk/undergraduate/how-to-apply/"]
     },
     {
-<<<<<<< HEAD
-      "tag": "ug_scholarship",
-=======
       "tag": "parents",
       "patterns": [
         "As a parent, I want to know more about the university?",
@@ -303,7 +300,6 @@
     },
     {
       "tag": "goodbye",
->>>>>>> 7267f9d77596db20287897eea69a62fc3fb5598d
       "patterns": [
         "undergraduate scholarships",
         "undergraduate bursaries",
