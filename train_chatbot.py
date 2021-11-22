@@ -1,4 +1,5 @@
 import nltk
+import os
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import json
@@ -10,10 +11,12 @@ from keras.layers import Dense, Activation, Dropout
 from tensorflow.keras.optimizers import SGD
 import random
 
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
+
 words=[]
 classes = []
 documents = []
-ignore_words = ['?', '!']
+ignore_words = ['?','!']
 data_file = open('intents.json').read()
 intents = json.loads(data_file)
 
@@ -70,7 +73,7 @@ for doc in documents:
     training.append([bag, output_row])
 # shuffle our features and turn into np.array
 random.shuffle(training)
-training = np.array(training)
+training = np.array(training, dtype=object)
 # create train and test lists. X - patterns, Y - intents
 train_x = list(training[:,0])
 train_y = list(training[:,1])
@@ -86,11 +89,11 @@ model.add(Dropout(0.5))
 model.add(Dense(len(train_y[0]), activation='softmax'))
 
 # Compile model. Stochastic gradient descent with Nesterov accelerated gradient gives good results for this model
-sgd = SGD(lr=0.01, decay=1e-6, momentum=0.9, nesterov=True)
+sgd = SGD(learning_rate=0.01, decay=1e-6, momentum=0.9, nesterov=True)
 model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy'])
 
 #fitting and saving the model 
-hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
+hist = model.fit(np.array(train_x), np.array(train_y), epochs=300, batch_size=5, verbose=1)
 model.save('chatbot_model.h5', hist)
 
 print("model created")

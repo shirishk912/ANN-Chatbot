@@ -1,4 +1,5 @@
 import nltk
+import os   
 from nltk.stem import WordNetLemmatizer
 lemmatizer = WordNetLemmatizer()
 import pickle
@@ -12,6 +13,8 @@ import random
 from tkHyperLinkManager import HyperlinkManager
 import webbrowser
 from functools import partial
+
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
