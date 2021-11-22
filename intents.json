@@ -11,10 +11,11 @@
         "Good day"
       ],
       "responses": [
-        "Hello, thanks for asking",
-        "Good to see you again",
-        "Hi there, how can I help?"
-      ]
+        "Hello, thanks for asking. This is an automated response system. If you wish to contact someone directly visit ",
+        "Good to see you again. This is an automated response system. If you wish to contact someone directly visit ",
+        "Hi there, how can I help? This is an automated response system. If you wish to contact someone directly visit "
+      ],
+      "link": ["https://www.swansea.ac.uk/international/contact-us/"]
     },
     {
       "tag": "clearing",
@@ -59,25 +60,13 @@
     {
       "tag": "accommodation",
       "patterns": [
-        "Contact details of undergraduate admissions team?",
         "I want to know the details of accommodation?",
         "I want to know the details of residence halls?"
       ],
       "responses": [
         "There are many ways to speak to the admissions team at Swansea, details can be found  "
       ],
-      "link": ["https://www.swansea.ac.uk/undergraduate/contact-admissions/"]
-    },
-    {
-      "tag": "campus_life",
-      "patterns": [
-        "Can I know more about campus life?",
-        "How's the life on campus?"
-      ],
-      "responses": [
-        "You can find more about this on website <a href='https://www.swansea.ac.uk/life-on-campus/'>here</a>",
-        "campus life Here <a href='https://www.swansea.ac.uk/life-on-campus/'>here</a>"
-      ]
+      "link": ["https://www.swansea.ac.uk/accommodation/"]
     },
     {
       "tag": "goodbye",
@@ -88,7 +77,12 @@
         "Nice chatting to you, bye",
         "Till next time"
       ],
-      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."]
+      "responses": [
+        "See you! Just to remind again, this is an automated response system. If you wish to contact someone directly visit ",
+        "Have a nice day. Just to remind again, this is an automated response system. If you wish to contact someone directly visit ",
+        "Bye! Come back again soon. Just to remind again, this is an automated response system. If you wish to contact someone directly visit "
+      ],
+      "link": ["https://www.swansea.ac.uk/international/contact-us/"]
     },
     {
       "tag": "thanks",
@@ -99,16 +93,22 @@
         "Awesome, thanks",
         "Thanks for helping me"
       ],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "responses": [
+        "Happy to help!. Our frequently asked questions can be found ",
+        "Any time! Our frequently asked questions can be found ",
+        "My pleasure. Our frequently asked questions can be found "
+      ],
+      "link": ["http://help.swan.ac.uk/faq/index.php?action=show&cat=63"]
     },
     {
       "tag": "noanswer",
-      "patterns": [],
+      "patterns": ["qweqwqwqrwqrw", "131444", "sadafadssd", "cvbcbbbb", " "],
       "responses": [
-        "Sorry, can't understand you",
-        "Please give me more info",
-        "Not sure I understand"
-      ]
+        "Sorry, can't understand you. If you're not sure what you wanted to ask please visit our FAQ site ",
+        "Please give me more info.  If you're not sure what you wanted to ask please visit our FAQ site ",
+        "Not sure I understand.  If you're not sure what you wanted to ask please visit our FAQ site "
+      ],
+      "link": ["http://help.swan.ac.uk/faq/index.php?action=show&cat=63"]
     }
   ]
 }
