@@ -69,6 +69,236 @@
       "link": ["https://www.swansea.ac.uk/accommodation/"]
     },
     {
+      "tag": "parents",
+      "patterns": [
+        "As a parent, I want to know more about the university?",
+        "As a guardian, I want to know more about the university?"
+      ],
+      "responses": [
+        "As a parent, guardian or someone with caring responsibilities, you will find yourself as one of the most important and trusted sources of information and advice for your child. More information can be found "
+      ],
+      "link": ["https://www.swansea.ac.uk/parents/"]
+    },
+    {
+      "tag": "ug_opendays",
+      "patterns": ["I want to register for undergraduate ug open day?"],
+      "responses": ["You can register for open day  "],
+      "link": ["https://www.swansea.ac.uk/open-days/"]
+    },
+    {
+      "tag": "ug_apply",
+      "patterns": [
+        "How do I apply for undergraduate courses?",
+        "What is the undergraduate application process?"
+      ],
+      "responses": [
+        "Applying to study an undergraduate degree at Swansea University? Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/undergraduate/how-to-apply/"]
+    },
+    {
+      "tag": "ug_scholarship",
+      "patterns": [
+        "How do I apply for undergraduate ug scholarships?",
+        "What ug undergraduate bursaries are available to me?"
+      ],
+      "responses": [
+        "Swansea University offers a range of academic, departmental, excellence and income related scholarships and bursaries. Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/undergraduate/scholarships/"]
+    },
+    {
+      "tag": "pg_taught_courses_list",
+      "patterns": [
+        "What postgraduate taught courses do you offer?",
+        "What pg taught courses do you offer?"
+      ],
+      "responses": [
+        "You can find all the postgraduate taught courses we offer "
+      ],
+      "link": ["https://www.swansea.ac.uk/postgraduate/taught/"]
+    },
+    {
+      "tag": "pg_research_courses_list",
+      "patterns": [
+        "What postgraduate research courses do you offer?",
+        "What pg research courses do you offer?"
+      ],
+      "responses": [
+        "You can find all the postgraduate research courses we offer "
+      ],
+      "link": ["https://www.swansea.ac.uk/postgraduate/research/"]
+    },
+    {
+      "tag": "pg_opendays",
+      "patterns": ["I want to register for postgraduate pg open day?"],
+      "responses": ["You can register for open day  "],
+      "link": ["https://www.swansea.ac.uk/postgraduate/open-days/"]
+    },
+    {
+      "tag": "pg_apply",
+      "patterns": [
+        "How do I apply for postgraduate courses?",
+        "What is the postgraduate application process?"
+      ],
+      "responses": [
+        "Applying to study a postgraduate degree at Swansea University? Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/postgraduate/apply/"]
+    },
+    {
+      "tag": "pg_scholarship",
+      "patterns": [
+        "How do I apply for postgraduate pg scholarships?",
+        "What pg postgraduate bursaries are available to me?"
+      ],
+      "responses": [
+        "We understand that the cost of your studies is one of the most important factors when deciding on a postgraduate degree. That's why we offered over £8 million in postgraduate scholarships last year. Explore your options today "
+      ],
+      "link": ["https://www.swansea.ac.uk/postgraduate/scholarships/"]
+    },
+    {
+      "tag": "about_university",
+      "patterns": [
+        "I would like to know more about swansea university?",
+        "What's the history of swansea university?"
+      ],
+      "responses": [
+        "Founded in 1920, Swansea is a vibrant research-led university. Find out more about the university "
+      ],
+      "link": ["https://www.swansea.ac.uk/the-university/"]
+    },
+    {
+      "tag": "pg_enquiry",
+      "patterns": [
+        "I would like to contact postgraduate admissions team?",
+        "Can you provide me the contact details of pg admissions team?"
+      ],
+      "responses": [
+        "To contact postgraduate admissions team you can call them at +441792295358 or through a live chat "
+      ],
+      "link": ["https://www.swansea.ac.uk/admissions/ask-us-live/"]
+    },
+    {
+      "tag": "ug_enquiry",
+      "patterns": [
+        "I would like to contact undergraduate admissions team?",
+        "Can you provide me the contact details of ug admissions team?"
+      ],
+      "responses": [
+        "To contact postgraduate admissions team you can call them at +441792295111 or through a live chat "
+      ],
+      "link": ["https://www.swansea.ac.uk/admissions/ask-us-live/"]
+    },
+    {
+      "tag": "student_life",
+      "patterns": [
+        "I would like to know more about student life?",
+        "What's the student life like?"
+      ],
+      "responses": [
+        "Whether you’re a sports fanatic, culture vulture or outdoor adventurer, you’ll find plenty to keep you busy between lectures. Find out more  "
+      ],
+      "link": ["https://www.swansea.ac.uk/study/student-life/"]
+    },
+    {
+      "tag": "clubs_societies",
+      "patterns": [
+        "What clubs are available to join?",
+        "What societies can i join?"
+      ],
+      "responses": [
+        "Swansea University has a strong campus-based student community.  From visual arts to poker; real ale to gospel, the Students' Union most likely has the perfect society for you. Find out more  "
+      ],
+      "link": ["https://www.swansea.ac.uk/study/student-life/clubs-societies/"]
+    },
+    {
+      "tag": "arts_culture",
+      "patterns": [
+        "What's Swansea university doing in promoting arts and culture?"
+      ],
+      "responses": [
+        "Our mission is championing arts and culture for all, nurturing partnerships, enhancing student experience. Find out more  "
+      ],
+      "link": ["https://www.swansea.ac.uk/cultural-institute/"]
+    },
+    {
+      "tag": "library",
+      "patterns": ["I want to know more about library services available?"],
+      "responses": ["You can find more about library services "],
+      "link": ["https://www.swansea.ac.uk/library/"]
+    },
+    {
+      "tag": "library_booking",
+      "patterns": ["I want to book a study space at the library?"],
+      "responses": ["You can book a study space in the library "],
+      "link": ["https://www.swansea.ac.uk/library/book_study_space/"]
+    },
+    {
+      "tag": "places_to_eat",
+      "patterns": ["I want to know where can i eat on campus?"],
+      "responses": [
+        "Looking for somewhere to curb your caffeine craving or just to grab a sandwich? We have places for you! Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/catering/places-to-eat/"]
+    },
+    {
+      "tag": "travel_options",
+      "patterns": [
+        "I want to know how can I reach campus? Available travel options?"
+      ],
+      "responses": [
+        "As part of our Sustainability and Climate Emergency Strategy, we encourage active travel at Swansea University. Walking or cycling to our campuses is great for your health and wellbeing, and for the environment too. For those who are unable to walk or cycle to campus, we promote public transport as a sustainable and affordable travel option. Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/sustainability/travel/"]
+    },
+    {
+      "tag": "sports",
+      "patterns": [
+        "I want to know what sports facilties and memberships are available?"
+      ],
+      "responses": [
+        "We pride ourselves on our dedication and commitment to sport and active living for everyone from the beginner to the elite athlete. Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/sport/"]
+    },
+    {
+      "tag": "events",
+      "patterns": ["I want to know what latest events are available?"],
+      "responses": [
+        "All the events happening in and around Swansea can be found here "
+      ],
+      "link": ["https://events.swansea.ac.uk/"]
+    },
+    {
+      "tag": "activities",
+      "patterns": [
+        "I want to know what activities apart from academics are available?"
+      ],
+      "responses": [
+        "Here at Swansea University, we know that university life is more than just study. To get involved, click "
+      ],
+      "link": ["https://www.swansea.ac.uk/sustainability/get-involved/"]
+    },
+    {
+      "tag": "virtual_tour",
+      "patterns": ["I want to take a virtual tour of the campus?"],
+      "responses": ["You can get a virtual tour of the university  "],
+      "link": ["https://www.swansea.ac.uk/virtual-tour-stand-alone/"]
+    },
+    {
+      "tag": "safety",
+      "patterns": [
+        "How safe is the university? Safety and security arrangements"
+      ],
+      "responses": [
+        "Swansea University offers a safe, secure and welcoming experience for students, staff and visitors. Find out more "
+      ],
+      "link": [
+        "https://www.swansea.ac.uk/life-on-campus/security-and-safezone/"
+      ]
+    },
+    {
       "tag": "goodbye",
       "patterns": [
         "Bye",
