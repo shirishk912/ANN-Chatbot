@@ -114,7 +114,6 @@ def send():
     if msg != '':
         ChatLog.config(state=NORMAL)
         ChatLog.insert(END, "STUDENT: " + msg + '\n\n')
-        ChatLog.config(foreground="black", font=("Arial", 8 ))
     
         res = chatbot_response(msg)
         link= chatbot_response_link(msg)
@@ -128,36 +127,42 @@ def send():
 
 base = Tk()
 base.title("Swansea University Chatbot")
-base.geometry("700x900")
-base.resizable(width=TRUE, height=TRUE)
+base.configure(width=770, height=550, bg=BG_COLOR)
+base.resizable(width=False, height=False)
+
+head_label = Label(base, bg=BG_COLOR, fg=TEXT_COLOR, text="Welcome", font=FONT_BOLD, pady=10)
+
+line = Label(base, width=750, bg=BG_GRAY)
 
 #Create Chat window
-ChatLog = Text(base, bd=0, bg="white", fg="black", height="800", width="150", font="Arial",)
-
-ChatLog.config(state=DISABLED)
+ChatLog = Text(base, width=20, height=2, bg=BG_COLOR, fg=TEXT_COLOR, font=FONT, padx=5, pady=5)
+ChatLog.config(cursor="arrow", state=DISABLED)
 
 hyperlink= HyperlinkManager(ChatLog)
 
 #Bind scrollbar to Chat window
-scrollbar = Scrollbar(base, command=ChatLog.yview, cursor="heart")
-ChatLog['yscrollcommand'] = scrollbar.set
+scrollbar = Scrollbar(ChatLog)
+scrollbar.configure(command=ChatLog.yview)
 
+# bottom label
+bottom_label = Label(base, bg=BG_GRAY, height=80)
 
 #Create the box to enter message
-EntryBox = Text(base, bd=0, bg="white",width="38", height="2", font="Arial")
-#EntryBox.bind("<Return>", send)
-
+EntryBox = Text(bottom_label, bg="#2C3E50", fg=TEXT_COLOR, font=FONT)
+EntryBox.focus()
 
 #Create Button to send message
-SendButton = Button(base, font=("Verdana",12,'bold'), text="Send", width="10", height="2",
-                    bd=0, bg="black", activebackground="#3c9d9b",fg='#ffffff',
+SendButton = Button(bottom_label, text="Send", font=FONT_BOLD, width=20, bg=BG_GRAY,
                     command= send )
 
 
 #Place all components on the screen
-scrollbar.place(x=376,y=6, height=386)
-ChatLog.place(x=6,y=6, height=386, width=370)
-EntryBox.place(x=6, y=401, height=90, width=265)
-SendButton.place(x=265, y=401, height=90)
+head_label.place(relwidth=1)
+line.place(relwidth=1, rely=0.07, relheight=0.012)
+ChatLog.place(relheight=0.745, relwidth=1, rely=0.08)
+scrollbar.place(relheight=1, relx=0.974)
+bottom_label.place(relwidth=1, rely=0.825)
+EntryBox.place(relwidth=0.74, relheight=0.06, rely=0.008, relx=0.011)
+SendButton.place(relx=0.77, rely=0.008, relheight=0.06, relwidth=0.22)
 
 base.mainloop()
