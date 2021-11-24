@@ -508,6 +508,16 @@
         "My pleasure. Our frequently asked questions can be found "
       ],
       "link": ["http://help.swan.ac.uk/faq/index.php?action=show&cat=63"]
+    },
+    {
+      "tag": "noanswer",
+      "patterns": [" "],
+      "responses": [
+        "Sorry, can't understand you. Our FAQs can be found here ",
+        "Please give me more info. Our FAQs can be found here ",
+        "Not sure I understand. Our FAQs can be found here "
+      ],
+      "link": ["http://help.swan.ac.uk/faq/index.php?action=show&cat=63"]
     }
   ]
 }

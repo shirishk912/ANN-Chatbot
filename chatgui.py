@@ -16,6 +16,13 @@ from functools import partial
 
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
+BG_GRAY = "#ABB2B9"
+BG_COLOR = "#17202A"
+TEXT_COLOR = "#EAECEE"
+
+FONT = "Helvetica 14"
+FONT_BOLD = "Helvetica 13 bold"
+
 intents = json.loads(open('intents.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
@@ -106,12 +113,12 @@ def send():
 
     if msg != '':
         ChatLog.config(state=NORMAL)
-        ChatLog.insert(END, "Student: " + msg + '\n\n')
+        ChatLog.insert(END, "STUDENT: " + msg + '\n\n')
         ChatLog.config(foreground="black", font=("Arial", 8 ))
     
         res = chatbot_response(msg)
         link= chatbot_response_link(msg)
-        ChatLog.insert(END, "Chatbot: " + res)
+        ChatLog.insert(END, "CHATBOT: " + res)
         ChatLog.insert(END, "here" + '\n\n', hyperlink.add(partial(webbrowser.open,link)))
             
         ChatLog.config(state=DISABLED)
@@ -125,7 +132,7 @@ base.geometry("700x900")
 base.resizable(width=TRUE, height=TRUE)
 
 #Create Chat window
-ChatLog = Text(base, bd=0, bg="white", fg="black", height="8", width="50", font="Arial",)
+ChatLog = Text(base, bd=0, bg="white", fg="black", height="800", width="150", font="Arial",)
 
 ChatLog.config(state=DISABLED)
 
