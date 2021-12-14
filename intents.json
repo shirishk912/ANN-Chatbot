@@ -69,243 +69,8 @@
       "link": ["https://www.swansea.ac.uk/undergraduate/how-to-apply/"]
     },
     {
-      "tag": "parents",
-      "patterns": [
-        "As a parent, I want to know more about the university?",
-        "As a guardian, I want to know more about the university?"
-      ],
-      "responses": [
-        "As a parent, guardian or someone with caring responsibilities, you will find yourself as one of the most important and trusted sources of information and advice for your child. More information can be found "
-      ],
-      "link": ["https://www.swansea.ac.uk/parents/"]
-    },
-    {
-      "tag": "ug_opendays",
-      "patterns": ["I want to register for undergraduate ug open day?"],
-      "responses": ["You can register for open day  "],
-      "link": ["https://www.swansea.ac.uk/open-days/"]
-    },
-    {
-      "tag": "ug_apply",
-      "patterns": [
-        "How do I apply for undergraduate courses?",
-        "What is the undergraduate application process?"
-      ],
-      "responses": [
-        "Applying to study an undergraduate degree at Swansea University? Find out more "
-      ],
-      "link": ["https://www.swansea.ac.uk/undergraduate/how-to-apply/"]
-    },
-    {
       "tag": "ug_scholarship",
-      "patterns": [
-        "How do I apply for undergraduate ug scholarships?",
-        "What ug undergraduate bursaries are available to me?"
-      ],
-      "responses": [
-        "Swansea University offers a range of academic, departmental, excellence and income related scholarships and bursaries. Find out more "
-      ],
-      "link": ["https://www.swansea.ac.uk/undergraduate/scholarships/"]
-    },
-    {
-      "tag": "pg_taught_courses_list",
-      "patterns": [
-        "What postgraduate taught courses do you offer?",
-        "What pg taught courses do you offer?"
-      ],
-      "responses": [
-        "You can find all the postgraduate taught courses we offer "
-      ],
-      "link": ["https://www.swansea.ac.uk/postgraduate/taught/"]
-    },
-    {
-      "tag": "pg_research_courses_list",
-      "patterns": [
-        "What postgraduate research courses do you offer?",
-        "What pg research courses do you offer?"
-      ],
-      "responses": [
-        "You can find all the postgraduate research courses we offer "
-      ],
-      "link": ["https://www.swansea.ac.uk/postgraduate/research/"]
-    },
-    {
-      "tag": "pg_opendays",
-      "patterns": ["I want to register for postgraduate pg open day?"],
-      "responses": ["You can register for open day  "],
-      "link": ["https://www.swansea.ac.uk/postgraduate/open-days/"]
-    },
-    {
-      "tag": "pg_apply",
-      "patterns": [
-        "How do I apply for postgraduate courses?",
-        "What is the postgraduate application process?"
-      ],
-      "responses": [
-        "Applying to study a postgraduate degree at Swansea University? Find out more "
-      ],
-      "link": ["https://www.swansea.ac.uk/postgraduate/apply/"]
-    },
-    {
-      "tag": "pg_scholarship",
-      "patterns": [
-        "How do I apply for postgraduate pg scholarships?",
-        "What pg postgraduate bursaries are available to me?"
-      ],
-      "responses": [
-        "We understand that the cost of your studies is one of the most important factors when deciding on a postgraduate degree. That's why we offered over £8 million in postgraduate scholarships last year. Explore your options today "
-      ],
-      "link": ["https://www.swansea.ac.uk/postgraduate/scholarships/"]
-    },
-    {
-      "tag": "about_university",
-      "patterns": [
-        "I would like to know more about swansea university?",
-        "What's the history of swansea university?"
-      ],
-      "responses": [
-        "Founded in 1920, Swansea is a vibrant research-led university. Find out more about the university "
-      ],
-      "link": ["https://www.swansea.ac.uk/the-university/"]
-    },
-    {
-      "tag": "pg_enquiry",
-      "patterns": [
-        "I would like to contact postgraduate admissions team?",
-        "Can you provide me the contact details of pg admissions team?"
-      ],
-      "responses": [
-        "To contact postgraduate admissions team you can call them at +441792295358 or through a live chat "
-      ],
-      "link": ["https://www.swansea.ac.uk/admissions/ask-us-live/"]
-    },
-    {
-      "tag": "ug_enquiry",
-      "patterns": [
-        "I would like to contact undergraduate admissions team?",
-        "Can you provide me the contact details of ug admissions team?"
-      ],
-      "responses": [
-        "To contact postgraduate admissions team you can call them at +441792295111 or through a live chat "
-      ],
-      "link": ["https://www.swansea.ac.uk/admissions/ask-us-live/"]
-    },
-    {
-      "tag": "student_life",
-      "patterns": [
-        "I would like to know more about student life?",
-        "What's the student life like?"
-      ],
-      "responses": [
-        "Whether you’re a sports fanatic, culture vulture or outdoor adventurer, you’ll find plenty to keep you busy between lectures. Find out more  "
-      ],
-      "link": ["https://www.swansea.ac.uk/study/student-life/"]
-    },
-    {
-      "tag": "clubs_societies",
-      "patterns": [
-        "What clubs are available to join?",
-        "What societies can i join?"
-      ],
-      "responses": [
-        "Swansea University has a strong campus-based student community.  From visual arts to poker; real ale to gospel, the Students' Union most likely has the perfect society for you. Find out more  "
-      ],
-      "link": ["https://www.swansea.ac.uk/study/student-life/clubs-societies/"]
-    },
-    {
-      "tag": "arts_culture",
-      "patterns": [
-        "What's Swansea university doing in promoting arts and culture?"
-      ],
-      "responses": [
-        "Our mission is championing arts and culture for all, nurturing partnerships, enhancing student experience. Find out more  "
-      ],
-      "link": ["https://www.swansea.ac.uk/cultural-institute/"]
-    },
-    {
-      "tag": "library",
-      "patterns": ["I want to know more about library services available?"],
-      "responses": ["You can find more about library services "],
-      "link": ["https://www.swansea.ac.uk/library/"]
-    },
-    {
-      "tag": "library_booking",
-      "patterns": ["I want to book a study space at the library?"],
-      "responses": ["You can book a study space in the library "],
-      "link": ["https://www.swansea.ac.uk/library/book_study_space/"]
-    },
-    {
-      "tag": "places_to_eat",
-      "patterns": ["I want to know where can i eat on campus?"],
-      "responses": [
-        "Looking for somewhere to curb your caffeine craving or just to grab a sandwich? We have places for you! Find out more "
-      ],
-      "link": ["https://www.swansea.ac.uk/catering/places-to-eat/"]
-    },
-    {
-      "tag": "travel_options",
-      "patterns": [
-        "I want to know how can I reach campus? Available travel options?"
-      ],
-      "responses": [
-        "As part of our Sustainability and Climate Emergency Strategy, we encourage active travel at Swansea University. Walking or cycling to our campuses is great for your health and wellbeing, and for the environment too. For those who are unable to walk or cycle to campus, we promote public transport as a sustainable and affordable travel option. Find out more "
-      ],
-      "link": ["https://www.swansea.ac.uk/sustainability/travel/"]
-    },
-    {
-      "tag": "sports",
-      "patterns": [
-        "I want to know what sports facilties and memberships are available?"
-      ],
-      "responses": [
-        "We pride ourselves on our dedication and commitment to sport and active living for everyone from the beginner to the elite athlete. Find out more "
-      ],
-      "link": ["https://www.swansea.ac.uk/sport/"]
-    },
-    {
-      "tag": "events",
-      "patterns": ["I want to know what latest events are available?"],
-      "responses": [
-        "All the events happening in and around Swansea can be found here "
-      ],
-      "link": ["https://events.swansea.ac.uk/"]
-    },
-    {
-      "tag": "activities",
-      "patterns": [
-        "I want to know what activities apart from academics are available?"
-      ],
-      "responses": [
-        "Here at Swansea University, we know that university life is more than just study. To get involved, click "
-      ],
-      "link": ["https://www.swansea.ac.uk/sustainability/get-involved/"]
-    },
-    {
-      "tag": "virtual_tour",
-      "patterns": ["I want to take a virtual tour of the campus?"],
-      "responses": ["You can get a virtual tour of the university  "],
-      "link": ["https://www.swansea.ac.uk/virtual-tour-stand-alone/"]
-    },
-    {
-      "tag": "safety",
-      "patterns": [
-        "How safe is the university? Safety and security arrangements"
-      ],
-      "responses": [
-        "Swansea University offers a safe, secure and welcoming experience for students, staff and visitors. Find out more "
-      ],
-      "link": [
-        "https://www.swansea.ac.uk/life-on-campus/security-and-safezone/"
-      ]
-    },
-    {
-      "tag": "goodbye",
-      "patterns": [
-        "undergraduate scholarships",
-        "undergraduate bursaries",
-        "ug scholarships",
-        "ug bursaries"
-      ],
+      "patterns": ["ug scholarships", "undergraduate scholarships"],
       "responses": [
         "Swansea University offers a range of academic, departmental, excellence and income related scholarships and bursaries. Find out more "
       ],
@@ -338,8 +103,8 @@
       "patterns": [
         "apply postgraduate courses",
         "apply pg courses",
-        "postgraduate application process",
-        "pg application process"
+        "pg application process",
+        "postgraduate application process"
       ],
       "responses": [
         "Applying to study a postgraduate degree at Swansea University? Find out more "
@@ -361,7 +126,10 @@
     },
     {
       "tag": "about_university",
-      "patterns": ["about swansea university?", "history swansea university?"],
+      "patterns": [
+        "more about swansea university",
+        "history swansea university"
+      ],
       "responses": [
         "Founded in 1920, Swansea is a vibrant research-led university. Find out more about the university "
       ],
@@ -399,7 +167,7 @@
     },
     {
       "tag": "clubs_societies",
-      "patterns": ["clubs", "societies"],
+      "patterns": ["clubs", "societies", "music"],
       "responses": [
         "Swansea University has a strong campus-based student community.  From visual arts to poker; real ale to gospel, the Students' Union most likely has the perfect society for you. Find out more  "
       ],
@@ -427,7 +195,7 @@
     },
     {
       "tag": "places_to_eat",
-      "patterns": ["eat campus"],
+      "patterns": ["eat", "food"],
       "responses": [
         "Looking for somewhere to curb your caffeine craving or just to grab a sandwich? We have places for you! Find out more "
       ],
@@ -435,7 +203,7 @@
     },
     {
       "tag": "travel_options",
-      "patterns": ["reach campus", "public transport"],
+      "patterns": ["reach campus", "travel options"],
       "responses": [
         "As part of our Sustainability and Climate Emergency Strategy, we encourage active travel at Swansea University. Walking or cycling to our campuses is great for your health and wellbeing, and for the environment too. For those who are unable to walk or cycle to campus, we promote public transport as a sustainable and affordable travel option. Find out more "
       ],
@@ -443,7 +211,7 @@
     },
     {
       "tag": "sports",
-      "patterns": ["sports facilties memberships"],
+      "patterns": ["sports facilties"],
       "responses": [
         "We pride ourselves on our dedication and commitment to sport and active living for everyone from the beginner to the elite athlete. Find out more "
       ],
@@ -471,7 +239,6 @@
       "responses": ["You can get a virtual tour of the university  "],
       "link": ["https://www.swansea.ac.uk/virtual-tour-stand-alone/"]
     },
-
     {
       "tag": "safety",
       "patterns": ["safe", "safety", "security"],
@@ -482,12 +249,206 @@
         "https://www.swansea.ac.uk/life-on-campus/security-and-safezone/"
       ]
     },
-
     {
       "tag": "accommodation",
       "patterns": ["accommodation", "residence"],
       "responses": ["Accommodation details can be found  "],
       "link": ["https://www.swansea.ac.uk/accommodation/"]
+    },
+    {
+      "tag": "mental-health",
+      "patterns": [
+        "stressed",
+        "stress",
+        "depression",
+        "depressed",
+        "mental",
+        "mental health",
+        "anxiety"
+      ],
+      "responses": [
+        "The role of Student Support Services is not to replace NHS services, but is to enable and empower students with mental health difficulties to make positive decisions and choices for themselves. The wellbeing services at the university offers various forms of support. To talk to a trained clinician to discuss your situation click  "
+      ],
+      "link": ["https://account.v2.togetherall.com/register/student"]
+    },
+    {
+      "tag": "international-students",
+      "patterns": [
+        "visa",
+        "international students",
+        "country",
+        "english language training",
+        "study abroad",
+        "exchange"
+      ],
+      "responses": [
+        "By studying at Swansea University you’ll become part of a world-class research institution with grand ambitions. For more details regarding your query click "
+      ],
+      "link": ["https://www.swansea.ac.uk/international-students/"]
+    },
+    {
+      "tag": "disability",
+      "patterns": ["disability"],
+      "responses": [
+        "The guide for anyone interested in studying at Swansea University who may have a disability or long-standing difficulty can be found "
+      ],
+      "link": [
+        "https://www.swansea.ac.uk/student-support-services/guide-to-extra-help-and-support/"
+      ]
+    },
+    {
+      "tag": "welsh",
+      "patterns": ["welsh"],
+      "responses": [
+        "Working to ensure a greater status for the Welsh language in all aspects of university life. To know more about Academi Hywel Teifi visit "
+      ],
+      "link": ["https://www.swansea.ac.uk/academi-hywel-teifi/"]
+    },
+    {
+      "tag": "academic-success",
+      "patterns": [
+        "improve writing",
+        "critical thinking",
+        "communication skills"
+      ],
+      "responses": [
+        "The Centre for Academic Success is here to support you in developing your academic study skills and achieve your goals. Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/academic-success/"]
+    },
+    {
+      "tag": "employability",
+      "patterns": ["employers", "employability", "career advice"],
+      "responses": [
+        "Find out more about swansea university employability academy "
+      ],
+      "link": ["https://www.swansea.ac.uk/sea/"]
+    },
+    {
+      "tag": "student_enterprise",
+      "patterns": ["entrepreneur", "entrepreneurship"],
+      "responses": [
+        "Part of our mission in the Enterprise Team is to raise awareness and provide an introduction to entrepreneurship, encouraging ethical, sustainable and social enterprises that adds value to others. Find out more "
+      ],
+      "link": [
+        "https://myuni.swansea.ac.uk/employability-enterprise/student-enterprise/"
+      ]
+    },
+    {
+      "tag": "research",
+      "patterns": [
+        "research highlights",
+        "research environment",
+        "ethics governance",
+        "research impact",
+        "research news",
+        "research features",
+        "civic mission"
+      ],
+      "responses": [
+        "We are ranked 22nd in the UK for the impact of our research and 26th in the UK for research excellence. We have achieved our ambition to become a top 30 research-intensive University with over 90% of our research being classed as world-leading or internationally excellent. Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/research/"]
+    },
+    {
+      "tag": "business",
+      "patterns": ["research expertise", "recruit", "hire"],
+      "responses": [
+        "Swansea University was founded on the principles of innovation and collaboration. By working with us your organisation can access world-leading research & development expertise, talented graduates & students, professional training and skills development, first class facilities & equipment, and a number of other commercial opportunities. Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/business-and-industry/"]
+    },
+    {
+      "tag": "alumni",
+      "patterns": ["alumni", "alumni profiles"],
+      "responses": [
+        "You are part of a global network of over 165,000 of Swansea graduates. Whether you're looking to update your professional skills, seek advice and inspiration, or stay involved with your university, we’re here for you! Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/alumni/"]
+    },
+    {
+      "tag": "rankings_awards",
+      "patterns": [
+        "ranking",
+        "awards",
+        "student satisfaction",
+        "teaching quality",
+        "excellence"
+      ],
+      "responses": ["To know more about your query visit "],
+      "link": ["https://www.swansea.ac.uk/awards/"]
+    },
+    {
+      "tag": "news",
+      "patterns": ["news"],
+      "responses": ["All the latest news of the university can be found "],
+      "link": ["https://www.swansea.ac.uk/press-office/news-events/"]
+    },
+    {
+      "tag": "faculties",
+      "patterns": [
+        "humanities",
+        "social sciences",
+        "law",
+        "management",
+        "medicine",
+        "health",
+        "social care",
+        "life sciences",
+        "science",
+        "engineering"
+      ],
+      "responses": [
+        "We are in the process of transitioning from Academic Colleges to our brand new Faculties. The details can be found "
+      ],
+      "link": ["https://www.swansea.ac.uk/the-university/faculties/"]
+    },
+    {
+      "tag": "jobs",
+      "patterns": ["jobs", "careers", "vacancies"],
+      "responses": [
+        "Looking for a new job? Changing role? Interested in what Swansea University can offer you? Find out more "
+      ],
+      "link": ["https://www.swansea.ac.uk/jobs-at-swansea/"]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["ug fees", "pg fees"],
+      "responses": [
+        "Information on fees, funding and seeking student financial advice at Swansea University can be found "
+      ],
+      "link": ["https://myuni.swansea.ac.uk/finance/"]
+    },
+    {
+      "tag": "covid",
+      "patterns": ["covid", "covid19", "covid-19", "coronavirus"],
+      "responses": [
+        "Guidance on how you can keep safe during the outbreak and what rules are in place to protect people is "
+      ],
+      "link": ["https://myuni.swansea.ac.uk/coronavirus-student-faqs/"]
+    },
+    {
+      "tag": "current_students",
+      "patterns": ["current student"],
+      "responses": [
+        "The homepage of current students information can be found "
+      ],
+      "link": ["https://myuni.swansea.ac.uk/"]
+    },
+    {
+      "tag": "live_chat",
+      "patterns": [
+        "live chat",
+        "live chat agent",
+        "agent",
+        "chat",
+        "query",
+        "question"
+      ],
+      "responses": [
+        "MyUniChat provides live chat support with the university agent, To chat with an agent visit "
+      ],
+      "link": ["https://myuni.swansea.ac.uk/"]
     },
     {
       "tag": "goodbye",
@@ -497,7 +458,7 @@
         "Have a nice day. Just to remind again, this is an automated response system. If you wish to contact someone directly visit ",
         "Bye! Come back again soon. Just to remind again, this is an automated response system. If you wish to contact someone directly visit "
       ],
-      "link": ["https://www.swansea.ac.uk/international/contact-us/"]
+      "link": ["https://account.v2.togetherall.com/register/student"]
     },
     {
       "tag": "thanks",
